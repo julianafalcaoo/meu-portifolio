@@ -27,7 +27,7 @@ export interface Project {
 export const profile: Profile = {
   name: 'Juliana Falcão',
   role: 'Engenharia de Software',
-  bio: 'Estudante de Engenharia de Software no 7º período, com experiência em projetos acadêmicos e desenvolvimento de aplicações usando Python, React, TypeScript, SQL e Docker. Interesse particular em qualidade, testes e documentação.',
+  bio: 'Estudante de Engenharia de Software no 7º período, com experiência em projetos acadêmicos e desenvolvimento de aplicações usando Python, React, TypeScript, SQL e Docker. Interesse particular em qualidade, engenharia de dados, testes e documentação.',
   photoUrl: '/meu-portifolio/foto.jpeg',
   links: [
     { label: 'E-mail', url: 'mailto:jtavaresfalcao8@gmail.com', kind: 'email' },
