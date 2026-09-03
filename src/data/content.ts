@@ -22,6 +22,7 @@ export interface Project {
   name: string;
   tagline: string;
   description: string;
+  url: string;
 }
 
 export const profile: Profile = {
@@ -69,16 +70,18 @@ export const projects: Project[] = [
   {
     slug: 'anapora',
     name: 'AÑAPORÃ',
-    tagline: 'Valorização de produtos indígenas',
+    tagline: 'Em desenvolvimento - FastAPI & React.ts',
     description:
       'Plataforma para valorização e comercialização de produtos indígenas, desenvolvida em equipe com foco na cultura e nos produtos artesanais.',
+    url: 'https://github.com/ANA-PORA/ANAPORA',
   },
   {
-    slug: 'clinic-manager',
-    name: 'Clinic Manager',
-    tagline: 'Gerenciamento de clínicas',
+    slug: 'lanche-falcao',
+    name: 'Lanche Falcão',
+    tagline: 'Em desenvolvimento - FastAPI & React.js',
     description:
-      'Aplicação web para auxiliar no gerenciamento de informações e processos de uma clínica, com interface para organização dos dados.',
+      'Aplicação web para gerenciamento e apresentação de produtos de uma lanchonete local de Parintins/AM com foco em organização, usabilidade e aplicação de conceitos de desenvolvimento web.',
+    url: 'https://github.com/julianafalcaoo/lanche-falcao',
   },
   {
     slug: 'zoobet',
@@ -86,5 +89,6 @@ export const projects: Project[] = [
     tagline: 'Projeto acadêmico',
     description:
       'Aplicação desenvolvida como projeto acadêmico para aplicar conceitos de programação, estruturação de sistemas e manipulação de dados.',
+    url: 'https://github.com/julianafalcaoo/zoobet-projeto',
   },
 ];
