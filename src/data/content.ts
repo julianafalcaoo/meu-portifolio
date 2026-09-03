@@ -85,10 +85,10 @@ export const projects: Project[] = [
   },
   {
     slug: 'zoobet',
-    name: 'Jogo do Bicho — ZOOBET',
-    tagline: 'Projeto acadêmico - Concluído',
+    name: 'ZOOBET',
+    tagline: 'Projeto acadêmico em FastAPI & React.ts - Concluído',
     description:
-      'Aplicação desenvolvida como projeto acadêmico para aplicar conceitos de programação, estruturação de sistemas e manipulação de dados.',
+      'Sistema desenvolvido como projeto acadêmico para aplicar conceitos de programação, estruturação de sistemas e manipulação de dados de forma lúdica.',
     url: 'https://github.com/julianafalcaoo/zoobet-projeto',
   },
 ];
