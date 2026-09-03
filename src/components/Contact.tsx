@@ -37,7 +37,12 @@ export default function Contact() {
 
         {emailLink && (
           <div className="contact-cta">
-            <a className="btn btn-primary" href={emailLink.url}>
+            <a
+              className="btn btn-primary"
+              href={`https://mail.google.com/mail/?view=cm&fs=1&to=${emailLink?.url.replace('mailto:', '')}`}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Enviar e-mail →
             </a>
           </div>
