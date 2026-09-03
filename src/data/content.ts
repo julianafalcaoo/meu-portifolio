@@ -86,7 +86,7 @@ export const projects: Project[] = [
   {
     slug: 'zoobet',
     name: 'Jogo do Bicho — ZOOBET',
-    tagline: 'Projeto acadêmico',
+    tagline: 'Projeto acadêmico - Concluído',
     description:
       'Aplicação desenvolvida como projeto acadêmico para aplicar conceitos de programação, estruturação de sistemas e manipulação de dados.',
     url: 'https://github.com/julianafalcaoo/zoobet-projeto',
